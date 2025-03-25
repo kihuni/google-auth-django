@@ -4,6 +4,8 @@
 
 ![Django](https://img.shields.io/badge/Django-4.2-brightgreen.svg) ![DRF](https://img.shields.io/badge/DRF-3.15-blue.svg) ![Python](https://img.shields.io/badge/Python-3.12.3-yellow.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+![Django](https://github.com/kihuni/google-auth-django/blob/main/Dev.to%20-%20100px%20x%20430px.png) 
+
 A Django REST API for project collaboration, featuring secure Google OAuth authentication and JWT-based API access. This project allows users to sign in with their Google accounts, obtain a JWT, and interact with project-related endpoints. It’s designed to be a scalable foundation for building a collaborative platform where users can list projects, find contributors, or offer support.
 
 This project is part of a detailed tutorial on integrating Google OAuth with Django REST Framework. Check out the full guide here: [How to Add Google OAuth to Django REST API](https://dev.to/kihuni/how-to-add-google-oauth-to-django-rest-api-29h9).
