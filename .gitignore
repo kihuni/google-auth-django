@@ -1,0 +1,56 @@
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pipenv/
+Pipfile.lock  # Exclude Pipfile.lock to avoid dependency conflicts; users can generate it with `pipenv install`
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3  # Exclude SQLite database (if using SQLite)
+migrations/  # Exclude migration files (they should be regenerated on deployment)
+*.db  # Exclude any other database files
+
+# Environment Variables
+.env  # Exclude sensitive environment variables (e.g., GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET)
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Static and Media Files
+staticfiles/
+media/
+
+# Testing and Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Documentation
+docs/_build/
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.tmp
