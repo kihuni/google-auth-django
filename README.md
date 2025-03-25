@@ -6,7 +6,7 @@
 
 A Django REST API for project collaboration, featuring secure Google OAuth authentication and JWT-based API access. This project allows users to sign in with their Google accounts, obtain a JWT, and interact with project-related endpoints. It’s designed to be a scalable foundation for building a collaborative platform where users can list projects, find contributors, or offer support.
 
-This project is part of a detailed tutorial on integrating Google OAuth with Django REST Framework. Check out the full guide here: [How to Add Google OAuth to Django REST API](https://your-blog-post-url.com).
+This project is part of a detailed tutorial on integrating Google OAuth with Django REST Framework. Check out the full guide here: [How to Add Google OAuth to Django REST API](https://dev.to/kihuni/how-to-add-google-oauth-to-django-rest-api-29h9).
 
 ---
 
@@ -55,9 +55,9 @@ ProjectAPI/
 
 - **Python 3.12.3**: Ensure Python is installed. You can download it from [python.org](https://www.python.org/downloads/).
 - **Pipenv**: Used for dependency management. Install it with:
-  ```bash
+  ```
   pip install pipenv
-
+  ```
 Google Developer Console Account: Required to set up Google OAuth credentials.
 
 Setup Instructions
@@ -108,7 +108,7 @@ Copy the Client ID and Client Secret.
    
 Create a .env file in the project root:
 
-````
+```
 GOOGLE_CLIENT_ID=your-client-id-here
 GOOGLE_CLIENT_SECRET=your-client-secret-here
 ```
