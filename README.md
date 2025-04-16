@@ -1,6 +1,6 @@
 
 
-# Project Collaboration API with Google OAuth
+# How to Add Google OAuth to Django REST API
 
 ![Django](https://img.shields.io/badge/Django-4.2-brightgreen.svg) ![DRF](https://img.shields.io/badge/DRF-3.15-blue.svg) ![Python](https://img.shields.io/badge/Python-3.12.3-yellow.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
